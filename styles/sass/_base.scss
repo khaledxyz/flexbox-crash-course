@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', Arial;
+    font-size: 16px;
+
+    background-color: $secondary;
+    color: white;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+a, ul{
+    list-style: none;
+    text-decoration: none;
+}

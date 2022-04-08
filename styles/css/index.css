@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", Arial;
+  font-size: 16px;
+  background-color: #a1c3ff;
+  color: white;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+a, ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #0151cc;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .container h1 {
+  font-size: 3rem;
+}
+.header .container img {
+  max-width: 400px;
+}
+
+.main .container {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar {
+  background-color: #3474e6;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  color: white;
+  font-weight: 700;
+}
+.navbar .container .logo {
+  font-size: x-large;
+}
+.navbar .container .nav-links {
+  display: flex;
+}
+.navbar .container .nav-links li:not(:last-child) {
+  margin-right: 20px;
+}
+.navbar .container .nav-links li a {
+  color: white;
+}
+.navbar .container .nav-links li a:hover {
+  color: lightblue;
+}
+
+.card {
+  background-color: #0151cc;
+  box-shadow: 0px 0px 0.6px rgba(0, 0, 0, 0.045), 0px 0px 1.5px rgba(0, 0, 0, 0.065), 0px 0px 2.8px rgba(0, 0, 0, 0.08), 0px 0px 4.9px rgba(0, 0, 0, 0.095), 0px 0px 9.2px rgba(0, 0, 0, 0.115), 0px 0px 22px rgba(0, 0, 0, 0.16);
+  flex: 1;
+  margin: 20px 0px;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+.card p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main .container {
+    display: block;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #253c64;
+  }
+}/*# sourceMappingURL=index.css.map */

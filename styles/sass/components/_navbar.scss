@@ -1,0 +1,25 @@
+.navbar{
+    background-color: #3474e6;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+
+        color: white;
+        font-weight: 700;
+
+        .logo{font-size: x-large;}
+
+        .nav-links{
+            display: flex;
+            li{
+                &:not(:last-child){
+                    margin-right: 20px;
+                }
+                a{color: white; &:hover{color: lightblue;}}
+            }
+        }
+    }
+}

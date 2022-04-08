@@ -1,0 +1,15 @@
+@media (max-width: 768px){
+    .header .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .main .container{
+        display: block;
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: #253c64;
+    }
+}
